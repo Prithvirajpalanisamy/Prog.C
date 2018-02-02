@@ -5,10 +5,12 @@ int a;
 clrscr();
 printf("Enter the number");
 scanf("%d",&a);
-if((a%2)=0)
-printf("The given number is even");
+if(a>0)
+printf("The number is positive");
+else if(a<0)
+printf("The number is negative");
 else
-printf("The given number is odd");
-getch();
-return 0;
+printf("zero");
+  getch();
+  return 0;
 }
